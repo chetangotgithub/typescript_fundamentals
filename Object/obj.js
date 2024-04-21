@@ -1,18 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var User = {
+const User = {
     name: "chetan",
     sirname: "zagade",
     age: 34
 };
-function createUser(_a) {
+function createUser({}) {
     return "name";
 }
 createUser({ name2: "hello", age2: 23 });
 function createObj(user) {
     return { name: user.name, age: user.age };
 }
-var createUser2 = function (user) {
+let createUser2 = (user) => {
     return { name: "", sirname: "", age: 0 };
 };
 var newuser = {
