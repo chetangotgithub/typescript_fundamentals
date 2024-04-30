@@ -8,12 +8,7 @@ class UFind {
         }
     }
     find (num1: number , num2:number) : boolean{
-        for(var i = 0; i < this.a ; i++){
-            if(this.arr[num1 - 1] == this.arr[num2 - 1]){
-                return true;
-            }
-        }
-        return false;
+        return this.arr[num1] == this.arr[num2];
     }
 
     union (num1: number , num2:number) : void{
