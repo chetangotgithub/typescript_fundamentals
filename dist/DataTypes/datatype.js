@@ -21,4 +21,9 @@ console.log(d1, " ", e1);
 var abc = "hello world";
 console.log(globalThis.abc); //undefined
 globalThis.abc = "hello";
-console.log(globalThis.abc, " ", abc);
+console.log(globalThis.abc, " ", abc); //hello   hello world
+//Type assertions are a way to override the default static type-checking behavior and tell the compiler that 
+//you know more about the type of a particular expression than it does.
+var someValue = "Hello, TypeScript!";
+var strLength = someValue.length;
+console.log(strLength); // Outputs: 18
