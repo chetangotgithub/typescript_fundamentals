@@ -1,29 +1,28 @@
-"use strict";
-const myarray = [];
-const myarray1 = [];
+var myarray = [];
+var myarray1 = [];
 myarray.push("spider");
 myarray1.push(3);
-const allUser = [];
+var allUser = [];
 allUser.push({ name: "chetan", age: 3 });
 //Union types
-let score = 33;
+var score = 33;
 score = "33";
-let usercredit = { name: "c", age: 4 };
+var usercredit = { name: "c", age: 4 };
 function details(name) {
     if (typeof name == "string") {
         name.toLowerCase();
     }
     //name.toUppercase()
 }
-let data = [];
+var data = [];
 data = 33;
 data = ["h", "e"];
 //value strict
-let seatallotment;
+var seatallotment;
 //seatallotment = "middle";
 //tuples
 //only three allowed
-const user1 = ["hc", 4, true];
+var user1 = ["hc", 4, true];
 user1.push(45); //why
 //enums to restrict user choices
 var SeatChoice;
@@ -32,4 +31,5 @@ var SeatChoice;
     SeatChoice[SeatChoice["MIDDLE"] = 1] = "MIDDLE";
     SeatChoice[SeatChoice["WINDOW"] = 2] = "WINDOW";
 })(SeatChoice || (SeatChoice = {}));
-const hcseat = SeatChoice.AISLE;
+var hcseat = SeatChoice.AISLE;
+console.log(user1);

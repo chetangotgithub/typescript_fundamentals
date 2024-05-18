@@ -56,3 +56,4 @@ enum SeatChoice {
     WINDOW
 }
 const hcseat = SeatChoice.AISLE;
+console.log(user1);
